@@ -128,6 +128,6 @@ Navigate a terminal session to inside of the folder "Starter" Run the following 
 Example:
 `java -classpath ./bin Starter < "./Examples/arrays.starter # Starter`
 
-This was a project for my Language Design module at univeristy. 
+### Thank you for reading!
 
-Thank you for reading!
+> This was a project for my language design module at univeristy. 
