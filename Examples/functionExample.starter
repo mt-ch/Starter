@@ -1,0 +1,11 @@
+store d = 10
+
+function test(a, b, c) {
+	print ("Inputed numbers: " + a + " "+ b + " " + c)
+	e = 2
+	return (a * b) + (c / d) ^ e
+}
+
+print(test(3, 4, 5))
+
+end

@@ -1,0 +1,36 @@
+print("Week 10 Exercise:")
+
+limit = 100.0
+
+function primeChecker(number){
+	result=false
+	
+	if (number%2.0==0){
+		result=false
+	}
+	
+	loop (i=3.0;i*i<=number;i=i+2.0){
+		if(number%i==0.0){
+			result=false
+		}
+		else{
+			result = true
+		}
+	}	
+	return result
+}
+
+
+for(counter=0.0; counter<=limit; counter=counter+1) {
+	print("The index is: "+ counter)
+	print(counter*100.0)
+	print(counter/10.2)
+	if(primeChecker(counter)==true){
+		print("True")
+	}
+	else{
+		print("False")
+	}
+}
+
+end

@@ -1,0 +1,13 @@
+print("Random number generator list:")
+
+function done(){
+	print("Generator finished!")
+}
+
+loop(i=0; i<=10; i=i+1){
+	a = rand(1, 100000)
+ 	print("Iteration " + i + ": " + a) 
+}
+
+done()
+end

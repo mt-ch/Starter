@@ -1,0 +1,12 @@
+print("Program to print Sin/Cos/Tan(x)")
+
+store angles[] = {0.0, 45.0, 90.0, 135.0, 180.0, 225.0, 270.0, 315.0, 360.0}
+
+for (count=0; count<=8; count=count+1) {
+	sinResult = sin(angles[count]) 
+	cosResult = cos(angles[count]) 
+	tanResult = tan(angles[count]) 
+	print("Angle: " + angles[count] + " Sin: " + sinResult + " Cos: " + cosResult + " Tan: " + tanResult)
+}	
+
+end

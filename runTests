@@ -1,0 +1,17 @@
+#!/bin/sh
+echo "=== Running Examples ==="
+
+echo "=== randomList.starter ==="
+java -classpath ./bin Starter < Examples/randomList.starter
+
+echo "=== LoopingPrimes.starter ==="
+java -classpath ./bin Starter < Examples/loopingPrimes.starter
+
+echo "=== functionExample.starter ==="
+java -classpath ./bin Starter < Examples/functionExample.starter
+
+echo "=== arrays.starter ==="
+java -classpath ./bin Starter < Examples/arrays.starter
+
+echo "=== trig.starter ==="
+java -classpath ./bin Starter < Examples/trig.starter
