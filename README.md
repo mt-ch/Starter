@@ -1,3 +1,5 @@
+<img src="/assets/StarterLogo.png" width="128" height="128" />
+
 # Starter
 
 Starter is an entry level general-purpose programming language for beginners to the subject. It is a Java-based, interoperated language that follows a procedural and declarative paradigm providing an easy model for beginners to understand.
